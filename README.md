@@ -14,3 +14,16 @@ Problema -> difficoltà nel trovare posti dove comprare quello che serve al migl
 Soluzione -> app che permette di trovare le offerte più convenienti nei posti più vicini dalla propria abitazione.
              trova tutte quello che cerchi individuando i negozi meno lontani con le offerte più avvincenti.
              esempio: si ha bisogno di una felpa, quest'app ti permetterà di trovare il tipo di felpa cercato nel negozio più vicino da casa, al minor prezzo.
+
+
+CIBO
+
+Problema -> non sapere cosa cucinare
+
+Soluzione ->app che inserendo uno o più ingredienti ti permette di torvare numerose ricette 
+
+THEREMIN
+
+Strumento musicale che produce le note in base ad un campo magnetico
+
+
