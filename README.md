@@ -26,4 +26,9 @@ THEREMIN
 
 Strumento musicale che produce le note in base ad un campo magnetico
 
+COSTI BIGLIETTI AUTOBUS E TRENI
 
+Problema -> non sapere quanto costa un biglietto per arrivare in un determinato posto, utilizzando determinati mezzi di trasporto
+
+Soluzione -> Si inserisce luogo di partenza e arrivo, e vengono elencate le possibilità di raggiungimento della meta, con il relativo costo.
+Oppure semplicemente, un database dove vengono elencati tutti i prezzi delle tratte di pullman e treni possibili nel raggio di tot km (inserito in input dall'utente), con anche il prezzo del biglietto se pagato in stazione/tabacchino o direttamente sul mezzo da autista/controllore.
