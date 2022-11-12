@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Nov 05, 2022 alle 09:52
+-- Creato il: Nov 12, 2022 alle 08:37
 -- Versione del server: 10.4.6-MariaDB
 -- Versione PHP: 7.3.8
 
@@ -169,6 +169,13 @@ ALTER TABLE `ingredienti`
   ADD PRIMARY KEY (`ID`);
 
 --
+-- Indici per le tabelle `preferiti`
+--
+ALTER TABLE `preferiti`
+  ADD KEY `Preferiti Utente` (`IDUtente`),
+  ADD KEY `Preferiti Ricetta` (`IDRicetta`);
+
+--
 -- Indici per le tabelle `prepara`
 --
 ALTER TABLE `prepara`
@@ -212,6 +219,13 @@ ALTER TABLE `utente`
 --
 -- Limiti per le tabelle scaricate
 --
+
+--
+-- Limiti per la tabella `preferiti`
+--
+ALTER TABLE `preferiti`
+  ADD CONSTRAINT `Preferiti Ricetta` FOREIGN KEY (`IDRicetta`) REFERENCES `ricetta` (`ID`),
+  ADD CONSTRAINT `Preferiti Utente` FOREIGN KEY (`IDUtente`) REFERENCES `utente` (`ID`);
 
 --
 -- Limiti per la tabella `prepara`
