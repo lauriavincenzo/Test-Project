@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso</title>
+</head>
+<style>
+    #nomut{
+    position:absolute;
+    margin-top:200px;
+    margin-left:-115px;
+    }
+    #nomu {
+        position:absolute;
+        margin-top: 240px;
+        margin-left:-255px;
+        width: 500px;
+        height: 30px; 
+    }
+
+    #psswor{
+    position:absolute;
+    margin-top:270px;
+    margin-left:-80px;
+    }
+    #pssw {
+        margin-top: 300px;
+        width: 500px;
+        height: 30px; 
+    }
+   
+    #button
+    {
+        margin-top: 10px;
+        width: 250px;
+        height: 30px;
+    }
+
+    div{
+        position:absolute;
+        margin-top: 250px;
+        margin-left: 90%;
+    }
+</style>
+<body>
+<form action="../php/Login.php" method="post">
+    <center><font size="20" id = "nomut" ><label  >Nome Utente </label></font><br></center> 
+    <center><input type = "Text" id = "nomu" name = "nomu"/> </center> 
+    <center><font size="20" id="psswor"><label  >Password </label></font><br></center> 
+    <center><input type = "password" id = "pssw" name = "pssw"/> </center> 
+    <center> <input type = "submit" id = "button" value = "Accedi"/></center>
+    <center>Non hai un account? Registrati <a href="registrati.html"><label >qui</label></a></center>
+</form>  
+</body>
+</html>
